@@ -91,3 +91,64 @@ bash scripts/install_chrome_headless.sh
 google-chrome-stable --version
 google-chrome-stable --headless --no-sandbox --disable-gpu --dump-dom https://example.com | head
 
+## Normalizer function
+
+This project provides a script to normalize stock gainer tables scraped from:
+
+Yahoo Finance (top gainers)
+
+Wall Street Journal (WSJ) (U.S. movers)
+
+The normalizer will output a more legiable CSV file containing the schemas: symbol, company_name, price, change, perc_change, volume
+
+## Step 1
+Clone the repository and install python
+ 
+git clone git@github.com:ChelseyB-UVA/2508_DS5111_qck2qg.git
+cd 2508_DS5111_qck2qg
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
+Then  clone the repository 2508_DS5111_materials/scripts/ into your scripts file
+Then clone the repository 2508_DS5111_materials/scripts/Makefile into your scripts file
+
+## Step 2
+Collect the raw data using the makefiles in bash
+
+make ygainers.csv
+make wsjgainers.csv
+
+##Step 3
+Build  the .py file to house the functions needed to normalize the data
+
+nano bin.normalize_gainers.py
+
+once functions are written and saved then pull python to run
+
+##Step 4 
+Test the functions:
+
+python bin/normalize_gainers.py
+
+if scripts are correct it should produce
+yganiers_normalized.csv
+wsjgainers_normalized.csv
+
+I tested the script by:
+
+Generating raw CSVs (make ygainers.csv, make wsjgainers.csv).
+
+Running the normalizer (python bin/normalize_gainers.py).
+
+Checking the outputs:
+head ygainers_normalized.csv
+head wsjgainers_normalized.csv
+
+##Noted
+
+.gitignore is set up to exclude raw .html and .csv scrape files, but keeps the normalized outputs (*_normalized.csv).
+
+WSJ and Yahoo may change their table column names. If parsing fails, inspect the columns:
+python -c "import pandas as pd; print(pd.read_csv('wsjgainers.csv').columns)"
+
