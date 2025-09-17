@@ -1,0 +1,101 @@
+symbol,company_name,price,change,perc_change,volume
+TURB,Turbo Energy S.A. ADR,12.4,9.7,359.26,141.9M
+CHOW,ChowChow Cloud International Holdings Ltd.,12.61,8.61,215.25,1.4M
+FGI,FGI Industries Ltd.,9.5,5.53,139.29,41.4M
+FLUX,Flux Power Holdings Inc.,3.15,1.08,52.17,7.6M
+WBTN,WEBTOON Entertainment Inc.,20.8,5.84,39.04,8.8M
+KLRS,Kalaris Therapeutics Inc.,5.01,1.3,35.04,420.5K
+AEI,Alset Inc.,4.27,1.06,33.02,1.7M
+APLM,Apollomics Inc.,12.18,2.89,31.11,171.4K
+LEE,Lee Enterprises Inc.,5.88,1.36,30.09,593.8K
+GORV,Lazydays Holdings Inc.,3.06,0.61,24.9,27.2M
+AIHS,Senmiao Technology Ltd.,2.67,0.52,24.19,44.7M
+ABTS,Abits Group Inc.,5.39,1.02,23.35,76.8K
+QMMM,QMMM Holdings Ltd. Cl A,88.0,16.25,22.65,575.7K
+HSDT,Helius Medical Technologies Inc.,22.33,4.06,22.22,2.0M
+JMIA,Jumia Technologies AG ADR,11.91,2.12,21.65,13.8M
+QVCGA,QVC Group Inc. Series A,14.42,2.31,19.12,285.6K
+FCHL,Fitness Champs Holdings Ltd.,6.17,0.98,18.88,876.2K
+CHEK,Check-Cap Ltd.,2.52,0.4,18.87,17.8M
+MFH,Mercurity Fintech Holding Inc.,9.54,1.51,18.8,201.6K
+CHNR,China Natural Resources Inc.,5.03,0.78,18.45,105.7K
+SISI,Shineco Inc.,7.76,1.17,17.75,744.0K
+AACG,ATA Creativity Global ADR,2.55,0.38,17.51,193.9K
+CISS,C3is Inc.,2.65,0.39,17.26,325.9K
+SONN,Sonnet BioTherapeutics Holdings Inc.,6.48,0.94,16.97,5.1M
+BBAI,BigBear.ai Holdings Inc.,5.94,0.85,16.7,213.1M
+BITF,Bitfarms Ltd.,2.89,0.41,16.53,156.4M
+PRME,Prime Medicine Inc.,4.67,0.66,16.46,5.1M
+ALMU,Aeluma Inc.,17.11,2.41,16.39,323.1K
+AEHL,Antelope Enterprise Holdings Ltd.,3.34,0.46,15.97,1.1M
+LASE,Laser Photonics Corp.,2.8,0.36,14.75,1.3M
+WAI,Top KingWin Ltd.,3.49,0.44,14.43,359.2K
+AQMS,Aqua Metals Inc.,4.07,0.48,13.53,200.6K
+BLNE,Beeline Holdings Inc.,3.87,0.46,13.49,4.1M
+ENTO,Entero Therapeutics Inc.,4.06,0.47,13.09,393.1K
+LIQT,LiqTech International Inc.,2.83,0.32,12.75,61.6K
+ELTX,Elicio Therapeutics Inc.,11.35,1.27,12.6,59.7K
+NGL,NGL Energy Partners LP,6.47,0.72,12.52,1.2M
+HIT,Health In Tech Inc. Cl A,2.93,0.32,12.26,329.8K
+SKBL,Skyline Builders Group Holding Ltd. Cl A,2.32,0.25,12.08,1.1M
+BWAY,Brainsway Ltd. ADR,16.89,1.79,11.89,220.9K
+NAAS,NaaS Technology Inc. ADR,3.55,0.37,11.63,118.1K
+ALZN,Alzamend Neuro Inc.,2.62,0.27,11.49,481.2K
+IMDX,Insight Molecular Diagnostics Inc.,3.44,0.35,11.33,117.9K
+MCRB,Seres Therapeutics Inc.,17.4,1.71,10.9,154.4K
+PAGS,PagSeguro Digital Ltd. Cl A,10.74,1.04,10.72,11.0M
+CRNC,Cerence Inc.,11.36,1.1,10.72,4.6M
+BREA,Brera Holdings PLC,7.58,0.73,10.66,4.5M
+AREC,American Resources Corp.,2.71,0.26,10.61,6.6M
+BTE,Baytex Energy Corp.,2.61,0.25,10.59,40.2M
+DK,Delek US Holdings Inc.,31.45,2.97,10.43,2.5M
+ADN,Advent Technologies Holdings Inc.,3.19,0.3,10.38,229.7K
+STKH,Steakholder Foods Ltd. ADR,5.47,0.51,10.28,5.4M
+LPL,LG Display Co. Ltd. ADR,4.96,0.46,10.22,998.5K
+PLCE,Children's Place Inc.,7.91,0.72,10.01,830.7K
+CLMT,Calumet Inc.,19.26,1.75,9.99,1.8M
+PXLW,Pixelworks Inc.,11.09,1.0,9.91,102.9K
+CRNT,Ceragon Networks Ltd.,2.23,0.2,9.85,1.3M
+PBF,PBF Energy Inc.,30.62,2.7,9.67,3.6M
+ABCL,AbCellera Biologics Inc.,4.77,0.42,9.66,5.2M
+CRBP,Corbus Pharmaceuticals Holdings Inc.,10.27,0.9,9.61,439.6K
+REBN,Reborn Coffee Inc.,2.74,0.24,9.6,234.7K
+SMHI,SEACOR Marine Holdings Inc.,7.08,0.62,9.6,222.9K
+MLGO,MicroAlgo Inc.,10.01,0.87,9.52,1.3M
+DGXX,Digi Power X Inc.,2.78,0.24,9.45,1.2M
+BE,Bloom Energy Corp.,73.29,6.27,9.36,14.1M
+NUKK,Nukkleus Inc.,5.63,0.48,9.32,18.6M
+CTRM,Castor Maritime Inc.,2.23,0.19,9.32,138.0K
+CMCM,Cheetah Mobile Inc. ADR,8.6,0.73,9.28,117.8K
+ABTC,American Bitcoin Corp.,7.73,0.66,9.26,7.1M
+FBYD,Falcon's Beyond Global Inc.,11.49,0.97,9.22,53.1K
+AMPX,Amprius Technologies Inc.,9.14,0.77,9.2,11.6M
+HUIZ,Huize Holding Ltd. ADR,3.85,0.32,9.07,191.5K
+SKIL,Skillsoft Corp.,14.13,1.17,9.03,110.3K
+PAPL,Pineapple Financial Inc.,6.07,0.5,8.98,107.9K
+CVI,CVR Energy Inc.,33.18,2.71,8.89,2.8M
+STEM,Stem Inc.,16.54,1.35,8.89,345.7K
+CLSK,CleanSpark Inc.,11.2,0.91,8.84,29.6M
+CMPR,Cimpress PLC,62.65,5.06,8.79,517.2K
+DRMA,Dermata Therapeutics Inc.,5.9,0.47,8.75,139.4K
+CURX,Curanex Pharmaceuticals Inc.,9.16,0.73,8.66,4.4M
+JVA,Coffee Holding Co. Inc.,4.78,0.38,8.64,126.7K
+DEVS,DevvStream Corp.,2.9,0.23,8.61,263.4K
+USAR,USA Rare Earth Inc.,14.92,1.18,8.59,9.2M
+YMT,Yimutian Inc. ADR,2.29,0.18,8.53,55.4K
+BW,Babcock & Wilcox Enterprises Inc.,3.2,0.25,8.47,4.6M
+FIGR,Figure Technology Solutions Inc.,40.48,3.15,8.44,8.1M
+ELVR,Sayona Mining Ltd. ADR,17.46,1.35,8.38,146.8K
+PGEN,Precigen Inc.,3.89,0.3,8.36,9.3M
+SDM,Smart Digital Group Ltd.,12.94,0.99,8.28,5.7M
+SEDG,SolarEdge Technologies Inc.,33.11,2.52,8.24,4.7M
+SRTA,Strata Critical Medical Inc. Cl A,4.9,0.37,8.17,1.4M
+NIO,NIO Inc. ADR,7.02,0.53,8.17,130.7M
+AMPY,Amplify Energy Corp.,4.38,0.33,8.15,879.1K
+MARA,MARA Holdings Inc.,17.53,1.29,7.94,112.7M
+KTOS,Kratos Defense & Security Solutions Inc.,76.35,5.61,7.93,5.3M
+FERG,Ferguson Enterprises Inc.,231.54,17.01,7.93,5.0M
+DAR,Darling Ingredients Inc.,33.87,2.48,7.9,5.9M
+SVCO,Silvaco Group Inc.,5.6,0.41,7.9,236.5K
+SPCB,SuperCom Ltd.,11.1,0.81,7.87,122.2K
+GPCR,Structure Therapeutics Inc. ADR,21.79,1.59,7.87,814.6K
