@@ -78,3 +78,16 @@ CTRL+X to exit
 Enter to return to bash
 
 
+## Headless Chrome Setup
+
+This repo includes a helper script to install Google Chrome (headless) on Ubuntu.
+
+### Run the installer
+**This repo command  was cloned from 2508_DS5111_materials/scripts/ **
+```bash
+bash scripts/install_chrome_headless.sh
+
+### Verify it works
+google-chrome-stable --version
+google-chrome-stable --headless --no-sandbox --disable-gpu --dump-dom https://example.com | head
+
