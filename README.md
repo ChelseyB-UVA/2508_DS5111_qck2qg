@@ -2,7 +2,7 @@
 
 # Repository Setup Guide
 
-## Requirements (Starting Point)
+### Requirements (Starting Point)
 - A fresh VM (Linux-based, e.g. Ubuntu 20.04+).
 - GitHub SSH key configured for access.
 - Git installed (`git --version`).
@@ -31,6 +31,12 @@ env:
 
 update:	env
 	. env/bin/activate; pip install -r requirements.txt
+
+test:
+	./env/bin/pytest
+
+lint:
+	./env/bin/pylint . --ignore=env
 
 Ensure you are using tab for spacing and not the spacebar as this could make an error message.
 
@@ -78,7 +84,7 @@ CTRL+X to exit
 Enter to return to bash
 
 
-## Headless Chrome Setup
+### Headless Chrome Setup
 
 This repo includes a helper script to install Google Chrome (headless) on Ubuntu.
 
@@ -145,10 +151,54 @@ Checking the outputs:
 head ygainers_normalized.csv
 head wsjgainers_normalized.csv
 
-##Noted
 
+##Noted
+"""
 .gitignore is set up to exclude raw .html and .csv scrape files, but keeps the normalized outputs (*_normalized.csv).
 
 WSJ and Yahoo may change their table column names. If parsing fails, inspect the columns:
 python -c "import pandas as pd; print(pd.read_csv('wsjgainers.csv').columns)"
+"""
 
+### Linting and Testing
+
+We will use **pylint** for code styling checks and **pytest** for testing the code.
+
+---
+
+## Setup
+Make sure your virtual environment is created and dependencies installed:
+
+```bash
+make update
+
+Check your make file to ensure that pylint and pytest have been added (see above for makefile)
+
+## Step 1 
+pylint uses the .pylintrc configuration file, from the root of the directory (the directory that
+has your makefile) run pylint --generate-rcfile >> pylintrc, this will greate the config file which
+you can edit by accessing it with nano.
+
+Now run make lint, this will do a test and will provide some sample out puts like unused imports,
+missing docstrings, or lines that are too long.
+
+## Step 2
+To create a test file in bash make a repository called tests then create the test file inside:
+tests/test_<name for test>.py
+
+Make test will run all tests or you can fun pytest directly with ./env/bin/pytest -v
+** -vvx will provide more information but stop the test at the first fail**
+
+## Step 3
+Access the test file and create your test functions:
+
+In this file we created 2 functions one to test the python version and on to test the os version
+
+Once these are save you can run make test in bash to test your files
+
+## NOTES
+Always run linting before committing to keep code clean.
+
+Add new tests whenever you add new features or fix bugs.
+
+ 
