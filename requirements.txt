@@ -1,2 +1,8 @@
+
 pandas
 numpy
+lxml
+html5lib
+beautifulsoup4
+pylint
+pytest
