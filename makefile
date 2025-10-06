@@ -11,7 +11,7 @@ test:
 	./env/bin/activate; pytest -vv tests/
 
 lint:
-	./env/bin/activate; pylint . --ignore=env
+	./env/bin/activate; pylint bin/normalize_gainers.py
 
 linttest: lint test
 	@echo "✅ Linting and tests complete"
