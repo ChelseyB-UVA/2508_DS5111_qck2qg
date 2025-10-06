@@ -20,4 +20,7 @@ def test_os_version():
     os_version = platform.release()
 
     print(f"Operating System: {os_name} {os_version}")
-    assert True
+
+    # Fail if OS is not one of the expected types
+    expected_os = {"Linux", "Darwin", "Windows"}
+    assert os_name in expected_os, f"Unexpected OS: {os_name}"

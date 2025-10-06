@@ -10,10 +10,10 @@ update: env
 	bash -c "source env/bin/activate && pip install -r requirements.txt"
 
 test:
-	./env/bin/pytest -vv
+	./env/bin/activate; pytest -vv tests/
 
 lint:
-	./env/bin/pylint . --ignore=env
+	./env/bin/activate; pylint . --ignore=env
 
 linttest: lint test
 	@echo "✅ Linting and tests complete"
