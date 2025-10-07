@@ -1,2 +1,7 @@
-pandas
-numpy
+pandas==2.3.2
+numpy==2.3.3
+lxml==6.0.1
+html5lib==1.1
+beautifulsoup4==4.13.5
+pylint==3.3.8
+pytest==8.4.2
