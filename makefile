@@ -8,4 +8,4 @@ update: env
 lint:
 	. env/bin/activate; pylint bin/normalize_gainers.py
 test: update
-	. env/bin/python -m pytest -vv
+	. env/bin/activate; pytest -vv tests/
