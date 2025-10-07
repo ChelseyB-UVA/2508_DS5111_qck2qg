@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+scripts/*.deb
+wsjgainers.csv
+wsjgainers.html
+ygainers.csv
+ygainers.html
+2508_DS5111_materials/
