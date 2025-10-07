@@ -7,5 +7,5 @@ update: env
         . env/bin/activate; pip install -r requirements.txt
 lint:
         . env/bin/activate; pylint bin/normalize_gainers.py
-test:
-        . env/bin/activate; pytest -vv tests/
+test: update
+        . env/bin/pytest -vv 
