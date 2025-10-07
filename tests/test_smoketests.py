@@ -9,9 +9,9 @@ def test_of_pytest():
     assert True
 
 def test_python_version():
-    """Checking the version is 3.10 or newer"""
+    """Checking the version is 3.12 or newer"""
     major, minor = sys.version_info[:2]
-    assert (major, minor) >= (3, 10), f"Python {major}.{minor} is to old!"
+    assert (major, minor) >= (3, 12), f"Python {major}.{minor} is to old!"
     print(f"Python version:{major}.{minor}")
 
 def test_os_version():
@@ -22,5 +22,5 @@ def test_os_version():
     print(f"Operating System: {os_name} {os_version}")
 
     # Fail if OS is not one of the expected types
-    expected_os = {"Linux", "Darwin", "Windows"}
+    expected_os = {"Linux"}
     assert os_name in expected_os, f"Unexpected OS: {os_name}"
