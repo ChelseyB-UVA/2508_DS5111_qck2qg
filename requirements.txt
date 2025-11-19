@@ -6,3 +6,4 @@ beautifulsoup4==4.13.5
 pylint==3.3.8
 pytest==8.4.2
 dbt-snowflake
+jupyterlab
