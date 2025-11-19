@@ -1,4 +1,4 @@
-symbol,company_name,price,change,perc_change,volume
+symbol,company_name,price_intraday,change,change_pct,volume,avg_vol_3_month,market_cap,pe_ratio_ttm,col10,col11,col12,col13
 WBTN,WEBTOON Entertainment Inc.,20.80,+5.84,+39.04,8.747M
 QMMM,QMMM Holdings Limited,88.00,+16.25,+22.65,574276
 BBAI,"BigBear.ai Holdings, Inc.",5.94,+0.85,+16.70,207.011M

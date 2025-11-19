@@ -1,4 +1,4 @@
-symbol,company_name,price,change,perc_change,volume
+symbol,company_name,price_intraday,change,change_pct,volume,avg_vol_3_month,market_cap,pe_ratio_ttm
 TURB,Turbo Energy S.A. ADR,12.4,9.7,359.26,141.9M
 CHOW,ChowChow Cloud International Holdings Ltd.,12.61,8.61,215.25,1.4M
 FGI,FGI Industries Ltd.,9.5,5.53,139.29,41.4M
