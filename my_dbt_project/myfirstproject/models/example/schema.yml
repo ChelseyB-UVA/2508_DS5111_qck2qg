@@ -27,3 +27,20 @@ models:
         data_tests:
           - unique
           - not_null
+  - name: unique_syms
+    description: "A table containing all unique stock symbols from normalized sources."
+    columns:
+      - name: SYMBOL
+        description: "Unique ticker symbol."
+        tests:
+          - unique
+          - not_null
+  - name: unique_sym_counts
+    description: "Counts of how many times each unique symbol appears across both datasets."
+    columns:
+      - name: SYMBOL
+        tests:
+          - not_null
+      - name: symbol_count
+        tests:
+          - not_null
